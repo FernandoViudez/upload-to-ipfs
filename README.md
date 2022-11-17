@@ -11,12 +11,12 @@ NFTs metadata that will be uploaded to IPFS.
 MUST save relations between NFTs.json and the images corresponding the NFT.
 Placeholder is an exception.
 
-imageSrc:
-  - MUST be a file name
-  - MUST have the extension of the file
-  - MUST be inside /assets/images/
-nftName: 
-  - MUST be the same than the name of the NFTs.json
+  * imageSrc:
+    - MUST be a file name
+    - MUST have the extension of the file
+    - MUST be inside /assets/images/
+  * nftName: 
+    - MUST be the same than the name of the NFTs.json
 
 - result.json
 Has all the IPFS cid's

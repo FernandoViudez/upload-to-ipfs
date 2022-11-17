@@ -1,0 +1,20 @@
+{
+    "placeholder": {
+        "nftName": "Trantorian Pack",
+        "imageSrc": "placeholder.jpg"
+    },
+    "others": [
+        {
+            "nftName": "Pack #1",
+            "imageSrc": "8x10.jpg"
+        },
+        {
+            "nftName": "Pack #2",
+            "imageSrc": "9x12-.jpg"
+        },
+        {
+            "nftName": "Pack #3",
+            "imageSrc": "12x16-.jpg"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Trantorian Pack",
+        "description": "Trantorian Official placeholder pack",
+        "image": "<AT-RUNTIME>",
+        "image_mimetype": "image/jpg",
+        "properties": {}
+    },
+    {
+        "name": "Pack #1",
+        "description": "Trantorian official pack",
+        "image": "AT-RUNTIME",
+        "image_mimetype": "AT-RUNTIME",
+        "properties": {
+            "Race": "Ruthic",
+            "Background": "Dark hole",
+            "Clothes": "Emperor",
+            "Back": "Torn cap",
+            "Face": "Wooden mask",
+            "Jewelry": "None",
+            "Skin mark": "Scar 1"
+        }
+    },
+    {
+        "name": "Pack #2",
+        "description": "Trantorian official pack",
+        "image": "AT-RUNTIME",
+        "image_mimetype": "AT-RUNTIME",
+        "properties": {
+            "Race": "Ruthic",
+            "Background": "Dark hole",
+            "Clothes": "Emperor",
+            "Back": "Torn cap",
+            "Face": "Wooden mask",
+            "Jewelry": "None",
+            "Skin mark": "Scar 2"
+        }
+    },
+    {
+        "name": "Pack #3",
+        "description": "Trantorian official pack",
+        "image": "AT-RUNTIME",
+        "image_mimetype": "AT-RUNTIME",
+        "properties": {
+            "Race": "Ruthic",
+            "Background": "Dark hole",
+            "Clothes": "Emperor",
+            "Back": "Torn cap",
+            "Face": "Wooden mask",
+            "Jewelry": "None",
+            "Skin mark": "Scar 3"
+        }
+    }
+]

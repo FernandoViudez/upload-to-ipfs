@@ -9,7 +9,6 @@ NFTs metadata that will be uploaded to IPFS.
 
 - ```NFTs-image-relation.json```
 MUST save relations between NFTs.json and the images corresponding the NFT.
-Placeholder is an exception.
 
   * imageSrc:
     - MUST be a file name

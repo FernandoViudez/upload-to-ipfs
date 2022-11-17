@@ -3,11 +3,11 @@
 #### architecture overview
 
 ###### metadata folder
-- NFTs.json
+- ```NFTs.json```
 NFTs metadata that will be uploaded to IPFS.
 "image" & "image_mimetype" are set automatically during runtime.
 
-- NFTs-image-relation.json
+- ```NFTs-image-relation.json```
 MUST save relations between NFTs.json and the images corresponding the NFT.
 Placeholder is an exception.
 
@@ -18,7 +18,7 @@ Placeholder is an exception.
   * nftName: 
     - MUST be the same than the name of the NFTs.json
 
-- result.json
+- ```result.json```
 Has all the IPFS cid's
 
 #### How to run

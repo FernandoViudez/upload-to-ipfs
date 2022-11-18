@@ -15,7 +15,7 @@ const uploadImageRelation = async ({ imageSrc, nftName }) => {
     );
 
     const itemFound = NFTs.find(item => item.name == nftName);
-    itemFound.image = imageIpfsUri;
+    itemFound.image = "ipfs://" + imageIpfsUri;
     itemFound.image_mimetype = `image/${imageSrc.split(".")[1]}`;
 
     return await uploadJson(_ipfs_, itemFound);
@@ -28,14 +28,14 @@ const uploadImageRelation = async ({ imageSrc, nftName }) => {
     console.log("PLACEHOLDER IPFS ~> ", placeholderIpfs);
 
     result.placeholder = {
-        ipfs: placeholderIpfs,
+        ipfs_uri: placeholderIpfs,
     };
     result.others = [];
 
     for (let imageRelation of relation.others) {
         const jsonIpfs = await uploadImageRelation(imageRelation)
         result.others.push({
-            ipfs: jsonIpfs
+            ipfs_uri: jsonIpfs
         });
     }
     fs.writeFileSync(path.resolve("./assets/metadata/result.json"), JSON.stringify(result));
